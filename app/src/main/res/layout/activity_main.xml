@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ru.teplicate.mybuttons.MorphButton
+        android:id="@+id/morph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey"
+        app:morph_button_color="@color/colorAccent"
+        app:morph_height="20dp"
+        app:morph_radius="40dp"
+        app:morph_width="20dp" />
+
+    <ru.teplicate.mybuttons.SwipeableButton
+        android:id="@+id/swipeable"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe me"
+        android:background="#673AB7"
+        />
+
+
+</LinearLayout>

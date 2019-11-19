@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MorphButton">
+        <attr name="morph_button_color" format="reference" />
+        <attr name="ordinate_bouncing" format="integer" />
+        <attr name="morph_radius" format="dimension" />
+        <attr name="morph_height" format="dimension" />
+        <attr name="morph_width" format="dimension" />
+        <attr name="bouncing_duration" format="integer" />
+        <attr name="folding_duration" format="integer" />
+        <attr name="unfolding_duration" format="integer" />
+    </declare-styleable>
+</resources>
